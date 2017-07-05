@@ -9,17 +9,17 @@ public class Main {
         // and "Music is paused" when playButton is false.
 
         boolean playButton =false; // true or false
+        playMusic(playButton);
+    }
 
-        public void playMusic() {
-            if (playButton) {
-                System.out.println("Music is playing");
-            } else {
-                System.out.println("Music is paused");
-            }
+    public static void playMusic(boolean playButton) {
+        if (playButton) {
+            System.out.println("Music is playing");
+        } else {
+            System.out.println("Music is paused");
         }
     }
 
 
+
 }
-
-
